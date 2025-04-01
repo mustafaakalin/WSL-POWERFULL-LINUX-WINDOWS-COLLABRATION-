@@ -231,4 +231,5 @@ getnf -f # JetBrainsMono, Hack, Firacode good font
 
 ```bash
 sudo pacman -S git github-cli
+yay -S visual-studio-code-insiders-bin
 ```
