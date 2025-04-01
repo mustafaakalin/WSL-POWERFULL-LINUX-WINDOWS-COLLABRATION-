@@ -227,9 +227,20 @@ curl -fsSL https://raw.githubusercontent.com/getnf/getnf/main/install.sh | bash
 getnf -f # JetBrainsMono, Hack, Firacode good font 
 ```
 
-**[OPTIONAL:DEVELOPER]** dev tools
+**[OPTIONAL:DEVELOPER]** dev tools **`pacman`** , **`yay`**
 
 ```bash
-sudo pacman -S git github-cli
-yay -S visual-studio-code-insiders-bin
+sudo pacman -S git github-cli 
+#yay -S visual-studio-code-insiders-bin
+#❯ code-insiders
+#To use Visual Studio Code - Insiders with the Windows Subsystem for Linux, please install Visual Studio Code - Insiders in Windows and uninstall the Linux version in WSL. You can then use the `code-insiders` command in a WSL terminal just as you would in a normal command prompt.
+#Do you want to continue anyway? [y/N] 
+```
+
+- **WIN TERMINAL `winget`**
+
+```bash
+winget install Microsoft.VisualStudioCode.Insiders 
+# https://code.visualstudio.com/docs/remote/wsl
+# wsl addon : https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
 ```
