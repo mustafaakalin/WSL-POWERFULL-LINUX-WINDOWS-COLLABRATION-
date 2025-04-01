@@ -243,4 +243,5 @@ sudo pacman -S git github-cli
 winget install Microsoft.VisualStudioCode.Insiders 
 # https://code.visualstudio.com/docs/remote/wsl
 # wsl addon : https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
+wsl --set-default archlinux
 ```
